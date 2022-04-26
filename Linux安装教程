@@ -3,7 +3,7 @@ debian Ubuntu
 apt install unzip -y
 apt install python3.7 -y
 apt install python3-pip -y
-wget https://github.com/ovenone/sub_to_mlsub/archive/refs/heads/main.zip
+wget https://raw.githubusercontent.com/Rasta0501/sub_to_mlsub/main/main.zip
 unzip main.zip
 cd sub_to_mlsub-main/
 pip3 install -r requirements.txt
